@@ -1,0 +1,7 @@
+torch
+django
+djangorestframework-simplejwt
+djangorestframework
+django-cors-headers
+Pillow
+transformers

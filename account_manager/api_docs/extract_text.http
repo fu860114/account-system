@@ -1,0 +1,19 @@
+POST /api/extract_text/
+Host: localhost
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="image"; filename="tripple-sheet-invoice.png"
+Content-Type: image/png
+
+< ./tripple-sheet-invoice.png
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+Content-Disposition: form-data; name="description"
+
+# 這是圖片的描述文字
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="coordinates"
+
+[[398, 137, 472, 159], [392, 262, 467, 286], [408, 288 ,474, 319], [393, 318, 472, 343]]
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
