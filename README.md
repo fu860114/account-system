@@ -1,3 +1,16 @@
+## Start system
+Frontend 
+`npm start`
+
+Backend 
+`python3 manage.py runserver`
+
+**帳密**
+
+- 管理員：皆aa
+- 一般使用者：皆bb
+
+
 ## Backend
 
 ### 1. Install Python package
