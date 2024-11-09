@@ -1,5 +1,5 @@
 POST /api/extract_text/
-Host: localhost
+Host: localhost:8000
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
 
 ------WebKitFormBoundary7MA4YWxkTrZu0gW
